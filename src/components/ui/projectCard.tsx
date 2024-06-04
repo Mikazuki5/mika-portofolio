@@ -26,9 +26,16 @@ const ProjectCard = ({ data, isProjectPage }: any) => {
        </div>
       </CardHeader>
       <div className="h-full px-8 py-6">
-        <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5">
-          {data.category}
-        </Badge>
+        <div className="absolute top-4 left-5 flex gap-x-1">
+          <Badge className="uppercase text-sm font-medium mb-2">
+            {data.category}
+          </Badge>
+          {isProjectPage && data.isLatest ? (
+            <Badge className="uppercase text-sm font-medium mb-2 bg-[#5958B1] hover:bg-[#5958B1]">
+              Latest
+            </Badge>
+          ): null}
+        </div>
         <h4 className="h4 mb-1">{data.name}</h4>
         <p className={twJoin("text-muted-foreground text-lg line-clamp-3", isProjectPage && "hover:line-clamp-none")}>{data.description}</p>
       </div>
