@@ -6,17 +6,17 @@ const serviceData = [
   {
     icon: <Aperture size={72} strokeWidth={0.8} />,
     title: "Photo / Videography",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis doloremque vero, modi ducimus minima officiis non aspernatur quis repudiandae, ex optio ipsum aliquam eum quam illo id veniam culpa."
+    description: "Capturing moments from today…Creating memories to last a lifetime."
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis doloremque vero, modi ducimus minima officiis non aspernatur quis repudiandae, ex optio ipsum aliquam eum quam illo id veniam culpa."
+    description: "I can create a high quality mobile application using React JS or NextJS framework. able to work as a team to build an application that is taken from the figma design very well, making global components that are reuseable, clean code, and easy to understand."
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "App Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis doloremque vero, modi ducimus minima officiis non aspernatur quis repudiandae, ex optio ipsum aliquam eum quam illo id veniam culpa."
+    description: "I can create a high quality mobile application using React Native technology/framework. able to work as a team to build an application that is taken from the figma design very well, making global components that are reuseable, clean code, and easy to understand."
   },
 ]
 
@@ -36,7 +36,7 @@ const Service = () => {
                 </CardHeader>
                 <CardContent className="text-center">
                   <CardTitle className='mb-4'>{item.title}</CardTitle>
-                  <CardDescription className="text-lg">{item.description}</CardDescription>
+                  <CardDescription className="text-lg line-clamp-2 hover:line-clamp-none">{item.description}</CardDescription>
                 </CardContent>
               </Card>
             )

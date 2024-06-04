@@ -6,11 +6,11 @@ import { twMerge } from 'tailwind-merge';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/gamlrvldi5/',
     name: <RiLinkedinFill />
   },
   {
-    path: '/',
+    path: 'https://github.com/Mikazuki5/',
     name: <RiGithubFill />
   },
   {
@@ -18,7 +18,7 @@ const icons = [
     name: <RiFacebookFill />
   },
   {
-    path: '/',
+    path: 'https://www.instagram.com/gamalrvldi/',
     name: <RiInstagramFill />
   },
 ]
@@ -28,7 +28,7 @@ const Social = ({containerStyles, iconStyles}: {containerStyles: string; iconSty
     <div className={twMerge(containerStyles)}>
       {icons.map((items, idx) => {
         return (
-          <Link href={items.path} key={idx}>
+          <Link href={items.path} key={idx} target="_blank">
             <div className={twMerge(iconStyles)}>
               {items.name}
             </div>

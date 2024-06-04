@@ -146,7 +146,7 @@ const About = () => {
             <div className="text-lg mt-12 xl:mt-8">
               <TabsContent value="personal">
                 <div className="text-center xl:text-left">
-                  <h3 className="h3 mb-4">Unmatched Service Quality for Over 10 years</h3>
+                  <h3 className="h3 mb-4">Unmatched Service Quality for Over 4 years</h3>
                   <p className="subtitle max-w-xl max-auto xl:mx-0">
                     I Specialize in crafting intuitive website with cutting edge technology, delivering dynamic and engaging user experiences.
                   </p>

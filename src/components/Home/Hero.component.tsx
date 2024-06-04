@@ -22,7 +22,7 @@ const Hero = () => {
               <Link href={'/contact'}>
                 <Button className='gap-x-2'>Contact Me <Send size={18} /></Button>
               </Link>
-              <Link href={'/contact'}>
+              <Link href={'/'}>
                 <Button variant={'secondary'} className='gap-x-2'>Download CV  <Download size={18} /></Button>
               </Link>
             </div>
@@ -37,16 +37,10 @@ const Hero = () => {
               badgeText="Years of experience" 
             />
             <Badge 
-              containerStyles="absolute top-[80%] -left-[1rem]" 
-              icon={<RiTodoFill />} 
-              endCountNum={5} 
-              badgeText="Finished project" 
-            />
-            <Badge 
               containerStyles="absolute top-[55%] -right-8" 
-              icon={<RiTeamFill />} 
-              endCountNum={10}
-              endCountText='k'
+              icon={<RiTodoFill />} 
+              endCountNum={10} 
+              endCountText='+'
               badgeText="Finished project" 
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"/>
