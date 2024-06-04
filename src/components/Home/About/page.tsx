@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import DevImg from '@/components/utils/DevImg.component';
+import DevImg from '@/components/Home/DevImg.component';
 import { Briefcase, GraduationCap, HomeIcon, MailIcon, PhoneCall, User2 } from 'lucide-react';
 import React from 'react';
 import Image from 'next/image';

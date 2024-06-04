@@ -3,7 +3,7 @@ import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet'
 import { AlignJustify } from 'lucide-react'
 import Logo from './Logo.component'
 import Navbar from './Navbar.component'
-import Social from '../utils/Social.component'
+import Social from '../Home/Social.component'
 
 const NavbarMobile = () => {
   return (

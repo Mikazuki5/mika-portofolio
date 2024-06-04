@@ -4,13 +4,12 @@ import 'swiper/css/pagination';
 
 import Link from 'next/link';
 import React from 'react';
-import { Button } from '../ui/button';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules'
+import { Button } from '@/components/ui/button';
+import ProjectCard from '@/components/ui/projectCard';
 
-
-import ProjectCard from '../ui/projectCard';
 
 const ProjectData = [
   {

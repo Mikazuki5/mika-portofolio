@@ -1,6 +1,6 @@
 import { Blocks, GanttChartSquare, Gem, Aperture } from 'lucide-react'
 import React from 'react'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../ui/card'
 
 const serviceData = [
   {

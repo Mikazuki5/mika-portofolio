@@ -1,7 +1,7 @@
-import About from "@/components/About/page";
-import Service from "@/components/Service/page";
-import Work from "@/components/Work/page";
-import Hero from "@/components/utils/Hero.component";
+import About from "@/components/Home/About/page";
+import Service from "@/components/Home/Service/page";
+import Hero from "@/components/Home/Hero.component";
+import Work from "@/components/Home/Work/page";
 
 export default function Home() {
   return (
