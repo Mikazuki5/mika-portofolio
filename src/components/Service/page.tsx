@@ -1,11 +1,11 @@
-import { Blocks, GanttChartSquare, Gem } from 'lucide-react'
+import { Blocks, GanttChartSquare, Gem, Aperture } from 'lucide-react'
 import React from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
 
 const serviceData = [
   {
-    icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    icon: <Aperture size={72} strokeWidth={0.8} />,
+    title: "Photo / Videography",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis doloremque vero, modi ducimus minima officiis non aspernatur quis repudiandae, ex optio ipsum aliquam eum quam illo id veniam culpa."
   },
   {

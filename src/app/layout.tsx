@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Layout/Header.component";
 import Footer from "@/components/Layout/Footer.component";
 import { ThemeProvider } from "@/components/Themes/ThemesProvider.component";
 
-const inter = Inter({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portofolio | Gamal Rivaldi",
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={outfit.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           {children}
