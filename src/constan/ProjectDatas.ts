@@ -21,7 +21,7 @@ export const ProjectData =
   {
     image: '/work/3.png',
     category: 'next js',
-    name: 'GajiCermar Web Panel',
+    name: 'GajiCermat Web Panel',
     description: 'Pembuatan aplikasi berbasis web menggunakan Framework React JS untuk keperluan membantu HRD dalam mengelola pembayaran gaji dan mengelola absensi karyawan.',
     link: 'https://www.gajicermat.com/',
     isLatest: true,
