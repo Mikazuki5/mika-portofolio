@@ -10,7 +10,7 @@ import Badge from './Badge.component'
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-12 bg-hero bg-no-repeat bg-cover bg-bottom dark:bg-none">
+    <section className="py-12 xl:py-24 min-h-[84vh] xl:pt-12 bg-hero bg-no-repeat bg-cover bg-bottom dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div className="flex flex-col mx-auto max-w-[600px] justify-center text-center xl:mx-0 xl:text-left">
